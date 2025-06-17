@@ -6,14 +6,14 @@ body {
   direction: rtl;
 }
 
-.login-container {
+.signup-container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
 
-.login-box {
+.signup-box {
   background-color: white;
   padding: 40px;
   border-radius: 10px;
@@ -22,17 +22,17 @@ body {
   text-align: center;
 }
 
-.login-box h1 {
+.signup-box h1 {
   color: #222;
   margin-bottom: 10px;
 }
 
-.login-box p {
+.signup-box p {
   color: #555;
   margin-bottom: 20px;
 }
 
-.login-box label {
+.signup-box label {
   display: block;
   text-align: right;
   margin: 10px 0 5px;
@@ -40,7 +40,7 @@ body {
   color: #333;
 }
 
-.login-box input {
+.signup-box input {
   width: 100%;
   padding: 10px;
   border: 1px solid #ccc;
@@ -48,10 +48,10 @@ body {
   margin-bottom: 15px;
 }
 
-.login-box button {
+.signup-box button {
   width: 100%;
   padding: 10px;
-  background-color: #2196F3;
+  background-color: #4CAF50;
   color: white;
   border: none;
   border-radius: 6px;
@@ -59,8 +59,8 @@ body {
   font-weight: bold;
 }
 
-.login-box button:hover {
-  background-color: #0b7dda;
+.signup-box button:hover {
+  background-color: #3e8e41;
 }
 
 #message {
